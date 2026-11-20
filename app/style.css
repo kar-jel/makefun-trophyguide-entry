@@ -1,1 +1,87 @@
-@font-face{font-family:Anton;src:url('fonts/Anton.ttf')}@font-face{font-family:Bebas;src:url('fonts/BebasNeue-Regular.ttf')}*{box-sizing:border-box}body{margin:0;background:#101513;color:#e6e2d7;font:15px/1.5 system-ui,sans-serif;background-image:linear-gradient(115deg,transparent 65%,#202820 65%,transparent 66%),radial-gradient(ellipse at 14% 4%,#234537 0,transparent 36%)}button,input{font:inherit}button{cursor:pointer;color:inherit;background:#1b2420;border:1px solid #46534a;padding:8px 12px;text-transform:uppercase;font-size:11px;letter-spacing:.1em}button:hover,.active{background:#d2ef78!important;color:#111!important;border-color:#d2ef78!important}.masthead{display:flex;justify-content:space-between;align-items:end;padding:32px max(calc((100vw - 1260px)/2),24px) 24px;border-bottom:1px solid #415045}.eyebrow,.section-title,.brand p,footer,.head-stats small{font-size:10px;letter-spacing:.18em;color:#a5b39e}.brand h1{font:clamp(48px,8vw,90px)/.78 Anton,sans-serif;letter-spacing:.025em;margin:12px 0;color:#e9e7db;text-shadow:4px 4px #50643f}.brand h1 i{font-style:normal;color:#d2ef78}.brand p{margin:17px 0 0}.head-stats{width:220px;display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center}.head-stats>span:first-child{font:28px Bebas;color:#d2ef78}.head-stats small{grid-column:1/-1}.head-stats #percent{font:21px Bebas}.progress{height:7px;background:#303a32;grid-column:1/-1}.progress i{display:block;height:100%;background:#d2ef78;width:0;transition:width .2s}.tabs{display:flex;gap:5px;padding:16px max(calc((100vw - 1260px)/2),24px);align-items:center;border-bottom:1px solid #303a32}.tab{border:0;background:transparent}.spoiler{margin-left:auto;font-size:12px;color:#c3c8ba}main{max-width:1260px;margin:auto;padding:22px 24px}.grade-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px}.grade-card{border:1px solid #343f36;background:#17201b;padding:10px 14px;display:flex;justify-content:space-between}.grade-card b{font:23px Bebas}.platinum{color:#d7e8ff}.gold{color:#efcb55}.silver{color:#bfcbd0}.bronze{color:#d98f63}.toolbar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:18px 0}.filters,.tools{display:flex;gap:5px;flex-wrap:wrap}.filter{padding:7px 9px}.tools input[type=search]{background:#141b17;color:#eee;border:1px solid #46534a;padding:7px 10px}.danger{color:#ff9884}.section-title{display:flex;justify-content:space-between;border-bottom:1px solid #475348;padding:8px 0;margin:8px 0 14px}.layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(300px,.75fr);gap:18px}.trophy-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.trophy-card{display:grid;grid-template-columns:32px 1fr auto;gap:10px;align-items:center;background:#18211c;border:1px solid #303d33;padding:9px 10px;cursor:pointer;min-height:66px}.trophy-card.selected{border-color:#d2ef78}.trophy-card input{accent-color:#d2ef78;width:18px;height:18px}.trophy-card .name{font-weight:650;line-height:1.2}.trophy-card .meta{font-size:9px;color:#9ca99b;letter-spacing:.12em;text-transform:uppercase}.grade-dot{font:16px Bebas}.detail-panel{background:#18211c;border:1px solid #4a5b4c;padding:19px;position:sticky;top:12px;align-self:start;min-height:300px}.detail-panel h2{font:34px/1 Bebas;margin:8px 0}.detail-panel .description{font-size:16px;color:#d1d6c9}.detail-panel .guide{border-left:2px solid #d2ef78;padding-left:12px;color:#c0c8b8}.source-list{display:flex;gap:8px;flex-wrap:wrap}.source-list a{color:#d2ef78}.detail-check{display:flex;gap:9px;align-items:center;margin:18px 0}.detail-check input{accent-color:#d2ef78}.empty{padding:45px 10px;color:#8e9b8e}.view{display:none}.view.active{display:block}.roadmap,.missable-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.stage{border:1px solid #3d4b3f;background:#18211c;padding:15px}.stage h3{margin:0 0 10px;color:#d2ef78;font:25px Bebas}.stage-row,.missable-row{display:flex;align-items:center;gap:9px;border-top:1px solid #303a32;padding:8px 0}.stage-row input{accent-color:#d2ef78}.missable-row{align-items:flex-start;border:1px solid #5e4938;background:#211c17;padding:12px}.missable-row p{margin:2px 0;color:#bcb6a8;font-size:13px}.missable-row b{color:#efbd76}footer{display:flex;justify-content:space-between;border-top:1px solid #374238;padding:16px max(calc((100vw - 1260px)/2),24px);margin-top:25px}@media(max-width:800px){.masthead{align-items:start;gap:16px;flex-direction:column}.head-stats{width:min(100%,380px)}.layout{grid-template-columns:1fr}.detail-panel{position:static}.trophy-list{grid-template-columns:1fr}.roadmap,.missable-list{grid-template-columns:1fr}.tabs{flex-wrap:wrap}.spoiler{margin-left:0}.grade-strip{grid-template-columns:repeat(2,1fr)}footer{gap:10px;flex-direction:column}}
+/* Leonida Field Guide — poster-inspired, responsive trophy tracker. */
+/* Local display typography. */
+@font-face { font-family: Anton; src: url("fonts/Anton.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: Bebas; src: url("fonts/BebasNeue-Regular.ttf") format("truetype"); font-display: swap; }
+/* Palette and global texture. */
+:root { color-scheme: dark; --ink: #111113; --panel: #1b1a1d; --paper: #e7dfd1; --muted: #a59b91; --pink: #ff3b91; --green: #c9f31d; --line: #494044; --platinum: #f2f0e9; --gold: #f2bd42; --silver: #bbc4cc; --bronze: #c98758; font-family: Arial, sans-serif; }
+* { box-sizing: border-box; }
+html { min-width: 320px; background: var(--ink); }
+body { margin: 0; color: var(--paper); background-color: var(--ink); background-image: repeating-linear-gradient(0deg, transparent, transparent 3px, #ffffff06 4px), repeating-linear-gradient(90deg, transparent, transparent 6px, #00000018 7px); }
+button, input { font: inherit; }
+button { color: inherit; }
+/* Poster masthead and completion stats. */
+.masthead { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 22px clamp(18px, 4vw, 58px); border-bottom: 3px solid var(--pink); background: linear-gradient(110deg, #262126, #111113 68%); }
+.brand .eyebrow, .brand p, .head-stats small, .section-title, .meta, footer { letter-spacing: .12em; }
+.eyebrow { color: var(--green); font-size: 11px; font-weight: 800; }
+h1 { margin: 5px 0 0; font: 56px/.78 Anton, Bebas, sans-serif; letter-spacing: .015em; }
+h1 i { color: var(--pink); font-style: normal; }
+.brand p { margin: 10px 0 0; color: var(--muted); font-size: 10px; font-weight: 700; }
+.head-stats { width: min(260px, 34vw); display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 5px 12px; }
+.head-stats > span:first-child { color: var(--green); font: 31px Bebas, sans-serif; }
+.head-stats small { grid-column: 1 / -1; color: var(--muted); font-size: 9px; }
+.head-stats > span:last-child { color: var(--pink); font: 22px Bebas, sans-serif; text-align: right; }
+.progress { height: 7px; overflow: hidden; background: #494044; }
+.progress i { display: block; width: 0; height: 100%; background: var(--green); transition: width .2s; }
+/* Navigation, grade summary, and filters. */
+.tabs { display: flex; align-items: center; gap: 8px; padding: 10px clamp(18px, 4vw, 58px); border-bottom: 1px solid var(--line); }
+.tab, .filter, .tools button, footer button { padding: 8px 12px; border: 1px solid var(--line); background: #211e22; cursor: pointer; font-size: 11px; font-weight: 800; text-transform: uppercase; }
+.tab.active, .filter.active { color: var(--ink); border-color: var(--green); background: var(--green); }
+.spoiler, .switch { margin-left: auto; color: var(--muted); font-size: 11px; }
+.grade-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 13px clamp(18px, 4vw, 58px) 0; }
+.grade-card { display: flex; align-items: center; justify-content: space-between; padding: 8px 12px; border-left: 3px solid var(--line); background: #1b1a1d; }
+.grade-card span, .grade-card b { font: 16px Bebas, sans-serif; }
+.platinum { color: var(--platinum); }
+.gold { color: var(--gold); }
+.silver { color: var(--silver); }
+.bronze { color: var(--bronze); }
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 13px clamp(18px, 4vw, 58px); }
+.filters, .tools { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.filter { padding: 7px 9px; font-size: 10px; }
+.tools input[type="search"] { width: 190px; padding: 8px; border: 1px solid var(--line); color: var(--paper); background: #211e22; }
+/* Main views and two-column checklist/detail workspace. */
+main { min-height: 60vh; }
+.view { display: none; padding: 0 clamp(18px, 4vw, 58px) 26px; }
+.view.active { display: block; }
+.layout { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(340px, .95fr); gap: 16px; align-items: start; }
+.section-title { display: flex; justify-content: space-between; align-items: baseline; margin: 6px 0 10px; color: var(--pink); font: 17px Bebas, sans-serif; }
+.section-title small { color: var(--muted); font: 10px Arial, sans-serif; }
+.list-progress { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; color: var(--green); font: 15px Bebas, sans-serif; }
+.list-progress .progress { flex: 1; }
+.trophy-list { display: grid; gap: 5px; max-height: 53vh; overflow: auto; padding-right: 4px; }
+.trophy-card { display: grid; grid-template-columns: 22px minmax(0, 1fr) 28px; align-items: center; gap: 9px; padding: 8px 10px; border: 1px solid #39343a; background: #1a191c; cursor: pointer; }
+.trophy-card:hover, .trophy-card.selected { border-color: var(--pink); background: #262026; }
+.trophy-card input, .detail-check input, .stage-row input, .missable-row input { accent-color: var(--green); }
+.name { font-weight: 800; font-size: 12px; }
+.description { margin: 3px 0; color: #c5bbb1; font-size: 11px; line-height: 1.4; }
+.meta { color: var(--muted); font-size: 9px; }
+.grade-dot { display: grid; width: 24px; height: 24px; place-items: center; border: 1px solid currentColor; border-radius: 50%; font: 14px Bebas, sans-serif; }
+/* Selected record details and warnings. */
+.detail-panel { position: sticky; top: 12px; padding: 18px; border: 1px solid var(--line); border-top: 3px solid var(--pink); background: #1b1a1d; }
+.detail-panel h2 { margin: 8px 0 2px; font: 30px/1.05 Anton, Bebas, sans-serif; }
+.detail-panel h3 { margin: 17px 0 6px; color: var(--green); font: 16px Bebas, sans-serif; letter-spacing: .08em; }
+.detail-panel .description, .guide { font-size: 13px; line-height: 1.55; }
+.warning { margin: 12px 0; padding: 9px; border-left: 3px solid var(--pink); color: #ffd3e5; background: #381b2b; font-size: 12px; }
+.detail-check { display: flex; align-items: center; gap: 8px; padding: 10px; color: var(--green); border: 1px solid var(--line); font-size: 12px; font-weight: 800; }
+.source-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.source-list a { color: var(--pink); font-size: 11px; }
+.empty { color: var(--muted); }
+/* Stage roadmap and missable index. */
+.roadmap { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.stage, .missable-row { padding: 13px; border: 1px solid var(--line); background: var(--panel); }
+.stage h3 { margin: 0; color: var(--green); font: 20px Bebas, sans-serif; }
+.stage > .meta { margin: 4px 0 10px; }
+.stage-row { display: grid; grid-template-columns: 20px 1fr 25px; align-items: center; gap: 8px; padding: 7px 2px; border-top: 1px solid #39343a; font-size: 11px; }
+.roadmap-name { padding: 0; border: 0; color: inherit; background: none; cursor: pointer; text-align: left; font-size: 11px; }
+.missable-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+.missable-row { display: grid; grid-template-columns: 20px 1fr 26px; align-items: start; gap: 10px; }
+.missable-row p { margin: 6px 0; color: #c5bbb1; font-size: 12px; line-height: 1.45; }
+/* Footer actions and transient status. */
+footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; padding: 14px clamp(18px, 4vw, 58px); border-top: 1px solid var(--line); color: var(--muted); font-size: 9px; }
+.footer-actions { display: flex; gap: 6px; }
+footer button { padding: 6px 9px; font-size: 9px; }
+.danger { color: #ff7890 !important; }
+.toast { position: fixed; right: 20px; bottom: 20px; z-index: 5; padding: 12px 18px; border: 1px solid var(--green); color: var(--ink); background: var(--green); opacity: 0; transform: translateY(10px); transition: .2s; }
+.toast.visible { opacity: 1; transform: translateY(0); }
+/* Responsive column collapse and touch-friendly controls. */
+@media (max-width: 850px) { .layout { grid-template-columns: 1fr; } .detail-panel { position: static; } .roadmap { grid-template-columns: repeat(2, minmax(0, 1fr)); } .trophy-list { max-height: 48vh; } }
+@media (max-width: 560px) { .masthead { align-items: start; padding: 18px; } h1 { font-size: 42px; } .brand p { max-width: 220px; line-height: 1.5; } .head-stats { width: 110px; } .head-stats > span:first-child { font-size: 23px; } .tabs, .toolbar { align-items: flex-start; flex-wrap: wrap; padding-inline: 18px; } .spoiler { margin-left: 0; } .grade-strip { padding-inline: 18px; gap: 4px; } .grade-card { display: block; padding: 7px; } .grade-card span, .grade-card b { display: block; font-size: 13px; } .tools { width: 100%; } .tools input[type="search"] { flex: 1; } .layout { gap: 12px; } .view { padding-inline: 18px; } .roadmap, .missable-list { grid-template-columns: 1fr; } footer { padding-inline: 18px; } }
