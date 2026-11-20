@@ -450,7 +450,7 @@
       "grade": "bronze",
       "guide": "Complete the final named story task: the final mission for Andy. This sits in the story or its character-mission strand; the description identifies the mission but does not specify its chapter, start point, or objective sequence. Follow the in-game mission entry to its completion, then confirm the trophy. Exact story placement and any route detail are not pinned down by the description; confirm them in the source below instead of inferring a location. No one-time condition is stated, so it is not identified as missable. Exact route: PowerPyx’s GTA VI roadmap, cross-checked on PSNProfiles.",
       "kind": "story",
-      "missable": false,
+      "missable": true,
       "stage": "Cleanup: activities",
       "missable_reason": "",
       "sources": [
@@ -471,7 +471,7 @@
       "grade": "bronze",
       "guide": "Complete the final named story task: the final mission for Kenton. This sits in the story or its character-mission strand; the description identifies the mission but does not specify its chapter, start point, or objective sequence. Follow the in-game mission entry to its completion, then confirm the trophy. Exact story placement and any route detail are not pinned down by the description; confirm them in the source below instead of inferring a location. No one-time condition is stated, so it is not identified as missable. Exact route: PowerPyx’s GTA VI roadmap, cross-checked on PSNProfiles.",
       "kind": "story",
-      "missable": false,
+      "missable": true,
       "stage": "Cleanup: activities",
       "missable_reason": "",
       "sources": [
@@ -492,7 +492,7 @@
       "grade": "bronze",
       "guide": "Complete the final named story task: the final mission for Billy. This sits in the story or its character-mission strand; the description identifies the mission but does not specify its chapter, start point, or objective sequence. Follow the in-game mission entry to its completion, then confirm the trophy. Exact story placement and any route detail are not pinned down by the description; confirm them in the source below instead of inferring a location. No one-time condition is stated, so it is not identified as missable. Exact route: PowerPyx’s GTA VI roadmap, cross-checked on PSNProfiles.",
       "kind": "story",
-      "missable": false,
+      "missable": true,
       "stage": "Cleanup: activities",
       "missable_reason": "",
       "sources": [
@@ -534,7 +534,7 @@
       "grade": "bronze",
       "guide": "Complete the final named story task: the final mission for Randy. This sits in the story or its character-mission strand; the description identifies the mission but does not specify its chapter, start point, or objective sequence. Follow the in-game mission entry to its completion, then confirm the trophy. Exact story placement and any route detail are not pinned down by the description; confirm them in the source below instead of inferring a location. No one-time condition is stated, so it is not identified as missable. Exact route: PowerPyx’s GTA VI roadmap, cross-checked on PSNProfiles.",
       "kind": "missable",
-      "missable": false,
+      "missable": true,
       "stage": "Cleanup: activities",
       "missable_reason": "",
       "sources": [
@@ -555,7 +555,7 @@
       "grade": "bronze",
       "guide": "Complete the final named story task: the final mission for Tyrone. This sits in the story or its character-mission strand; the description identifies the mission but does not specify its chapter, start point, or objective sequence. Follow the in-game mission entry to its completion, then confirm the trophy. Exact story placement and any route detail are not pinned down by the description; confirm them in the source below instead of inferring a location. No one-time condition is stated, so it is not identified as missable. Exact route: PowerPyx’s GTA VI roadmap, cross-checked on PSNProfiles.",
       "kind": "missable",
-      "missable": false,
+      "missable": true,
       "stage": "Cleanup: activities",
       "missable_reason": "",
       "sources": [
@@ -765,7 +765,7 @@
       "grade": "bronze",
       "guide": "Make an unscheduled departure at VCIA. This is a specific free-roam event associated with the named airport acronym. Trigger the departure and complete the action the game recognizes, then check the trophy list. The description does not explain what counts as “unscheduled” or give a route, so consult the source for the verified trigger; do not invent a terminal or vehicle. No one-time opportunity is stated, so it is not identified as missable. Exact route: PowerPyx’s GTA VI roadmap, cross-checked on PSNProfiles.",
       "kind": "missable",
-      "missable": false,
+      "missable": true,
       "stage": "Cleanup: activities",
       "missable_reason": "",
       "sources": [
@@ -807,7 +807,7 @@
       "grade": "bronze",
       "guide": "Rob a jewelry store without being detected. This is a stealth robbery objective, not a named mission. Use the source below to confirm the store and trigger, then enter the robbery, avoid detection throughout, and escape or finish as the verified route requires. The description does not specify the store’s location or what actions count as detection, so do not guess those details. If detection occurs, the stated condition fails for that attempt; the description does not say it is a single chance, so retry. Exact route: PowerPyx’s GTA VI roadmap, cross-checked on PSNProfiles.",
       "kind": "missable",
-      "missable": false,
+      "missable": true,
       "stage": "Cleanup: activities",
       "missable_reason": "",
       "sources": [
@@ -996,7 +996,7 @@
       "grade": "bronze",
       "guide": "“Choices made (for better or worse).” This is a hint rather than an explicit requirement. The description does not identify a decision, chapter, or outcome, so do not guess which choice is involved. Check the cited route for the confirmed action and timing, follow it, and verify the trophy unlock. Because a choice could be one-time but the description does not say which choice or whether it can be revisited, verify missability with the source and consider a manual save before the confirmed decision. Exact route: PowerPyx’s GTA VI roadmap, cross-checked on PSNProfiles.",
       "kind": "missable",
-      "missable": false,
+      "missable": true,
       "stage": "Cleanup: activities",
       "missable_reason": "",
       "sources": [
@@ -1017,7 +1017,7 @@
       "grade": "bronze",
       "guide": "“Second time’s the charm.” The official description is a hint, not a precise requirement. It does not say what must be attempted twice, where, or in which mission. Confirm the trigger and timing in the source below, then follow that route and check the trophy list; do not interpret the phrase as a specific activity without evidence. The hint alone cannot establish whether the chance is repeatable. If the verified route identifies a one-time event, follow its save/timing advice before proceeding. Exact route: PowerPyx’s GTA VI roadmap, cross-checked on PSNProfiles.",
       "kind": "missable",
-      "missable": false,
+      "missable": true,
       "stage": "Cleanup: activities",
       "missable_reason": "",
       "sources": [
@@ -1038,7 +1038,7 @@
       "grade": "bronze",
       "guide": "“What the hell just happened?” is the complete official description, so it does not identify a concrete objective, location, or story stage. Treat this as an undisclosed trigger: use the source below to confirm the route, then perform only its verified steps and check the trophy list. Do not invent a supernatural encounter or map location based on the wording. The description does not establish missability; check source timing advice before advancing past any named event. Exact route: PowerPyx’s GTA VI roadmap, cross-checked on PSNProfiles.",
       "kind": "missable",
-      "missable": false,
+      "missable": true,
       "stage": "Cleanup: activities",
       "missable_reason": "",
       "sources": [
