@@ -55,7 +55,7 @@ export function renderStats(container, trophies, progress) {
   const next = nextUp(trophies, progress);
   const summary = document.createElement('p');
   summary.className = 'stats-summary';
-  summary.textContent = `${completionPercent(trophies, progress)}% complete${next ? ` · Next: ${next.name}` : ' · No remaining non-platinum trophies'}`;
+  summary.textContent = `${completionPercent(trophies, progress)}% complete${next ? ` · Next: ${next.name}${earned(progress, next) ? ' (earned)' : ''}` : ' · No remaining non-platinum trophies'}`;
   container.append(summary);
   for (const [title, entries] of groups) {
     const section = document.createElement('section');
