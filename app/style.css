@@ -1,7 +1,4 @@
 /* Leonida Field Guide — poster-inspired, responsive trophy tracker. */
-/* Local display typography. */
-@font-face { font-family: Anton; src: url("fonts/Anton.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: Bebas; src: url("fonts/BebasNeue-Regular.ttf") format("truetype"); font-display: swap; }
 /* Palette and global texture. */
 :root { color-scheme: dark; --ink: #111113; --panel: #1b1a1d; --paper: #e7dfd1; --muted: #a59b91; --pink: #ff3b91; --green: #c9f31d; --line: #494044; --platinum: #f2f0e9; --gold: #f2bd42; --silver: #bbc4cc; --bronze: #c98758; font-family: Arial, sans-serif; }
 * { box-sizing: border-box; }
@@ -11,15 +8,15 @@ button, input { font: inherit; }
 button { color: inherit; }
 /* Poster masthead and completion stats. */
 .masthead { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 22px clamp(18px, 4vw, 58px); border-bottom: 3px solid var(--pink); background: linear-gradient(110deg, #262126, #111113 68%); }
-.brand .eyebrow, .brand p, .head-stats small, .section-title, .meta, footer { letter-spacing: .12em; }
+.brand .eyebrow, .brand p, .head-stats small, .section-title, .meta, footer { letter-spacing: .12em; font-family: ui-monospace, "SF Mono", monospace; }
 .eyebrow { color: var(--green); font-size: 11px; font-weight: 800; }
-h1 { margin: 5px 0 0; font: 56px/.78 Anton, Bebas, sans-serif; letter-spacing: .015em; }
+h1 { margin: 5px 0 0; font: 56px/.78 "Arial Narrow", "Helvetica Neue", Impact, system-ui, sans-serif; letter-spacing: .015em; }
 h1 i { color: var(--pink); font-style: normal; }
 .brand p { margin: 10px 0 0; color: var(--muted); font-size: 10px; font-weight: 700; }
 .head-stats { width: min(260px, 34vw); display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 5px 12px; }
-.head-stats > span:first-child { color: var(--green); font: 31px Bebas, sans-serif; }
+.head-stats > span:first-child { color: var(--green); font: 31px "Arial Narrow", "Helvetica Neue", Impact, system-ui, sans-serif; }
 .head-stats small { grid-column: 1 / -1; color: var(--muted); font-size: 9px; }
-.head-stats > span:last-child { color: var(--pink); font: 22px Bebas, sans-serif; text-align: right; }
+.head-stats > span:last-child { color: var(--pink); font: 22px "Arial Narrow", "Helvetica Neue", Impact, system-ui, sans-serif; text-align: right; }
 .progress { height: 7px; overflow: hidden; background: #494044; }
 .progress i { display: block; width: 0; height: 100%; background: var(--green); transition: width .2s; }
 /* Navigation, grade summary, and filters. */
@@ -29,7 +26,7 @@ h1 i { color: var(--pink); font-style: normal; }
 .spoiler, .switch { margin-left: auto; color: var(--muted); font-size: 11px; }
 .grade-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 13px clamp(18px, 4vw, 58px) 0; }
 .grade-card { display: flex; align-items: center; justify-content: space-between; padding: 8px 12px; border-left: 3px solid var(--line); background: #1b1a1d; }
-.grade-card span, .grade-card b { font: 16px Bebas, sans-serif; }
+.grade-card span, .grade-card b { font: 16px "Arial Narrow", "Helvetica Neue", Impact, system-ui, sans-serif; }
 .platinum { color: var(--platinum); }
 .gold { color: var(--gold); }
 .silver { color: var(--silver); }
@@ -43,9 +40,9 @@ main { min-height: 60vh; }
 .view { display: none; padding: 0 clamp(18px, 4vw, 58px) 26px; }
 .view.active { display: block; }
 .layout { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(340px, .95fr); gap: 16px; align-items: start; }
-.section-title { display: flex; justify-content: space-between; align-items: baseline; margin: 6px 0 10px; color: var(--pink); font: 17px Bebas, sans-serif; }
+.section-title { display: flex; justify-content: space-between; align-items: baseline; margin: 6px 0 10px; color: var(--pink); font: 17px "Arial Narrow", "Helvetica Neue", Impact, system-ui, sans-serif; }
 .section-title small { color: var(--muted); font: 10px Arial, sans-serif; }
-.list-progress { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; color: var(--green); font: 15px Bebas, sans-serif; }
+.list-progress { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; color: var(--green); font: 15px "Arial Narrow", "Helvetica Neue", Impact, system-ui, sans-serif; }
 .list-progress .progress { flex: 1; }
 .trophy-list { display: grid; gap: 5px; max-height: 53vh; overflow: auto; padding-right: 4px; }
 .trophy-card { display: grid; grid-template-columns: 22px minmax(0, 1fr) 28px; align-items: center; gap: 9px; padding: 8px 10px; border: 1px solid #39343a; background: #1a191c; cursor: pointer; }
@@ -54,11 +51,11 @@ main { min-height: 60vh; }
 .name { font-weight: 800; font-size: 12px; }
 .description { margin: 3px 0; color: #c5bbb1; font-size: 11px; line-height: 1.4; }
 .meta { color: var(--muted); font-size: 9px; }
-.grade-dot { display: grid; width: 24px; height: 24px; place-items: center; border: 1px solid currentColor; border-radius: 50%; font: 14px Bebas, sans-serif; }
+.grade-dot { display: grid; width: 24px; height: 24px; place-items: center; border: 1px solid currentColor; border-radius: 50%; font: 14px "Arial Narrow", "Helvetica Neue", Impact, system-ui, sans-serif; }
 /* Selected record details and warnings. */
 .detail-panel { position: sticky; top: 12px; padding: 18px; border: 1px solid var(--line); border-top: 3px solid var(--pink); background: #1b1a1d; }
-.detail-panel h2 { margin: 8px 0 2px; font: 30px/1.05 Anton, Bebas, sans-serif; }
-.detail-panel h3 { margin: 17px 0 6px; color: var(--green); font: 16px Bebas, sans-serif; letter-spacing: .08em; }
+.detail-panel h2 { margin: 8px 0 2px; font: 30px/1.05 "Arial Narrow", "Helvetica Neue", Impact, system-ui, sans-serif; }
+.detail-panel h3 { margin: 17px 0 6px; color: var(--green); font: 16px "Arial Narrow", "Helvetica Neue", Impact, system-ui, sans-serif; letter-spacing: .08em; }
 .detail-panel .description, .guide { font-size: 13px; line-height: 1.55; }
 .warning { margin: 12px 0; padding: 9px; border-left: 3px solid var(--pink); color: #ffd3e5; background: #381b2b; font-size: 12px; }
 .detail-check { display: flex; align-items: center; gap: 8px; padding: 10px; color: var(--green); border: 1px solid var(--line); font-size: 12px; font-weight: 800; }
@@ -68,7 +65,7 @@ main { min-height: 60vh; }
 /* Stage roadmap and missable index. */
 .roadmap { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 .stage, .missable-row { padding: 13px; border: 1px solid var(--line); background: var(--panel); }
-.stage h3 { margin: 0; color: var(--green); font: 20px Bebas, sans-serif; }
+.stage h3 { margin: 0; color: var(--green); font: 20px "Arial Narrow", "Helvetica Neue", Impact, system-ui, sans-serif; }
 .stage > .meta { margin: 4px 0 10px; }
 .stage-row { display: grid; grid-template-columns: 20px 1fr 25px; align-items: center; gap: 8px; padding: 7px 2px; border-top: 1px solid #39343a; font-size: 11px; }
 .roadmap-name { padding: 0; border: 0; color: inherit; background: none; cursor: pointer; text-align: left; font-size: 11px; }
