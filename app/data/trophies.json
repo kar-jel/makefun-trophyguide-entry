@@ -574,11 +574,11 @@
       "name": "Positive Mental Attitude",
       "description": "Meditate at every spot across Leonida.",
       "grade": "bronze",
-      "guide": "Meditate at every spot across Leonida. The description defines a full-map meditation sweep, with cleanup across the state; the roadmap also flags one possible Chapter 1 exception at Jason’s house. First, if Lucia offers the meditation prompt during Chapter 1, follow her and accept it before the chapter ends. Then use the cited spot checklist, visit each remaining spot, meditate, and track the counter. The source says the first meditation’s trophy relevance is uncertain, so doing it is the safe habit. Exact route: PowerPyx’s GTA VI roadmap, cross-checked on PSNProfiles.",
+      "guide": "Meditate at every spot across Leonida. The description defines a full-map meditation sweep, with cleanup across the state; the roadmap also flags one possible Chapter 1 exception at Jason’s house. First, if Lucia offers the meditation prompt during Chapter 1, follow her and accept it before the chapter ends. Then use the cited spot checklist, visit each remaining spot, meditate, and track the counter. Missed if the Chapter 1 meditation opportunity at Jason’s house closes; accept Lucia’s prompt before the chapter ends, then finish the remaining spots. Exact route: PowerPyx’s GTA VI roadmap, cross-checked on PSNProfiles.",
       "kind": "collectibles",
       "missable": true,
       "stage": "Chapter 1",
-      "missable_reason": "PowerPyx reports a one-time meditation with Lucia during Chapter 1 at Jason’s house; it is unclear whether it counts, so accept the meditation prompt when it appears before leaving the chapter.",
+      "missable_reason": "The Chapter 1 meditation opportunity may close when the chapter ends.",
       "sources": [
         {
           "label": "PowerPyx GTA 6 Trophy Guide & Roadmap",
