@@ -82,3 +82,24 @@ footer button { padding: 6px 9px; font-size: 9px; }
 /* Responsive column collapse and touch-friendly controls. */
 @media (max-width: 850px) { .layout { grid-template-columns: 1fr; } .detail-panel { position: static; } .roadmap { grid-template-columns: repeat(2, minmax(0, 1fr)); } .trophy-list { max-height: 48vh; } }
 @media (max-width: 560px) { .masthead { align-items: start; padding: 18px; } h1 { font-size: 42px; } .brand p { max-width: 220px; line-height: 1.5; } .head-stats { width: 110px; } .head-stats > span:first-child { font-size: 23px; } .tabs, .toolbar { align-items: flex-start; flex-wrap: wrap; padding-inline: 18px; } .spoiler { margin-left: 0; } .grade-strip { padding-inline: 18px; gap: 4px; } .grade-card { display: block; padding: 7px; } .grade-card span, .grade-card b { display: block; font-size: 13px; } .tools { width: 100%; } .tools input[type="search"] { flex: 1; } .layout { gap: 12px; } .view { padding-inline: 18px; } .roadmap, .missable-list { grid-template-columns: 1fr; } footer { padding-inline: 18px; } }
+
+/* Statistics, searchable results, and private note cards. */
+.stats-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; padding: 12px clamp(18px, 4vw, 58px) 0; }
+.stats-group, .recent-notes, .note-card { padding: 12px; border: 1px solid var(--line); background: var(--panel); }
+.stats-group h3, .recent-notes h3 { margin: 0 0 8px; color: var(--green); font-size: 13px; text-transform: uppercase; }
+.stats-summary { grid-column: 1 / -1; margin: 0; color: var(--pink); font-weight: 800; }
+.stat-row { margin: 6px 0; }
+.stat-label { overflow: hidden; color: var(--paper); font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
+.stat-track { height: 5px; margin-top: 4px; background: #494044; }
+.stat-track i { display: block; height: 100%; background: var(--green); }
+.search-results[hidden] { display: none; }
+.search-results { display: flex; flex-wrap: wrap; gap: 5px; width: 100%; }
+.search-result, .note-jump { padding: 6px 9px; border: 1px solid var(--line); color: var(--paper); background: var(--panel); cursor: pointer; font-size: 11px; }
+.notes-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; }
+.recent-notes { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 7px; }
+.recent-notes h3 { width: 100%; }
+.note-card { display: grid; gap: 7px; }
+.note-card label { color: var(--green); font-size: 11px; font-weight: 800; }
+.note-card textarea { width: 100%; resize: vertical; padding: 8px; border: 1px solid var(--line); color: var(--paper); background: #111113; font: 12px/1.4 Arial, sans-serif; }
+@media (max-width: 850px) { .stats-strip { grid-template-columns: 1fr; } .notes-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .notes-list { grid-template-columns: 1fr; } }

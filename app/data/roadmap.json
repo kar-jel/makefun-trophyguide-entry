@@ -1,0 +1,205 @@
+{
+  "platinum": {
+    "summary": "Earn all 55 listed trophies, including the individual cleanup objectives.",
+    "approach": "Follow the story stages in sequence, handle the Chapter 1 warning before leaving that chapter, then work through collectible and activity cleanup. Check the in-game trophy list after each objective; finish by confirming the platinum unlocks."
+  },
+  "stages": [
+    {
+      "stage": "Prologue",
+      "order": 1,
+      "trophies": [
+        "Just Like Paradise"
+      ],
+      "summary": "Complete the listed Prologue objectives and confirm each unlock before moving on.",
+      "warnings": []
+    },
+    {
+      "stage": "Chapter 1",
+      "order": 2,
+      "trophies": [
+        "Paradise Lost",
+        "Positive Mental Attitude"
+      ],
+      "summary": "Complete the listed Chapter 1 objectives and confirm each unlock before moving on.",
+      "warnings": [
+        "Do not leave Chapter 1 before completing the meditation opportunity."
+      ]
+    },
+    {
+      "stage": "Chapter 2",
+      "order": 3,
+      "trophies": [
+        "T**s Ass Drug Money"
+      ],
+      "summary": "Complete the listed Chapter 2 objectives and confirm each unlock before moving on.",
+      "warnings": []
+    },
+    {
+      "stage": "Chapter 3",
+      "order": 4,
+      "trophies": [
+        "Vice City, Baby!"
+      ],
+      "summary": "Complete the listed Chapter 3 objectives and confirm each unlock before moving on.",
+      "warnings": []
+    },
+    {
+      "stage": "Chapter 4",
+      "order": 5,
+      "trophies": [
+        "Top Of The World, Ma"
+      ],
+      "summary": "Complete the listed Chapter 4 objectives and confirm each unlock before moving on.",
+      "warnings": []
+    },
+    {
+      "stage": "Epilogue",
+      "order": 6,
+      "trophies": [
+        "You Gotta Know When to Get Off"
+      ],
+      "summary": "Complete the listed Epilogue objectives and confirm each unlock before moving on.",
+      "warnings": []
+    },
+    {
+      "stage": "Cleanup: collectibles",
+      "order": 7,
+      "trophies": [
+        "Don't Touch My Deck",
+        "You WAiNKer!",
+        "Whip It Good",
+        "The Goodtime State",
+        "In The Beginning…",
+        "On the Spot"
+      ],
+      "summary": "Work through the cleanup: collectibles checklist, verifying each trophy as it registers.",
+      "warnings": []
+    },
+    {
+      "stage": "Cleanup: activities",
+      "order": 8,
+      "trophies": [
+        "Trust",
+        "Break the Bank",
+        "Family Matters",
+        "DWNFALL",
+        "Hi-Jacked",
+        "Snow Storm",
+        "A Long Road",
+        "Cunning Stunts",
+        "Master of None",
+        "The Shootist",
+        "Top Fun",
+        "Earn Cash, Not Kudos",
+        "Baited My Tackle",
+        "Stick Fiddler",
+        "Road to Rehabilitation",
+        "This Was No Boat Accident",
+        "The Lone Rider",
+        "Strangers & Freaks",
+        "Supply & Demand",
+        "Spin On This!",
+        "Fair Game",
+        "One Last Thing",
+        "Hot Together",
+        "Retail Therapy",
+        "Gunslinger",
+        "Catch Me If You Can",
+        "Challenging Tank",
+        "Sneakthief",
+        "Maximum Withdrawal",
+        "A Classic Blitz Play",
+        "Pest Control",
+        "Capital Offense",
+        "Let’s Go Bowling",
+        "Personal Best",
+        "Actions Speak Louder",
+        "Bad Luck, I Guess",
+        "The Truth Is Out There",
+        "Ten Pin",
+        "Dime on the Dollar",
+        "Treat Yo Self",
+        "Little Boxes"
+      ],
+      "summary": "Work through the cleanup: activities checklist, verifying each trophy as it registers.",
+      "warnings": []
+    },
+    {
+      "stage": "Platinum",
+      "order": 9,
+      "trophies": [
+        "Vice Got a Price!"
+      ],
+      "summary": "Use this as the set-completion capstone after every other trophy is earned.",
+      "warnings": []
+    }
+  ],
+  "missables": [
+    {
+      "name": "Road to Rehabilitation",
+      "stage": "Cleanup: activities",
+      "reason": "The tracker flags this objective as missable; its source data does not specify the exact lockout condition.",
+      "avoid": "Complete and verify this requirement as soon as it becomes available; check the trophy register before moving past related content."
+    },
+    {
+      "name": "This Was No Boat Accident",
+      "stage": "Cleanup: activities",
+      "reason": "The tracker flags this objective as missable; its source data does not specify the exact lockout condition.",
+      "avoid": "Complete and verify this requirement as soon as it becomes available; check the trophy register before moving past related content."
+    },
+    {
+      "name": "The Lone Rider",
+      "stage": "Cleanup: activities",
+      "reason": "The tracker flags this objective as missable; its source data does not specify the exact lockout condition.",
+      "avoid": "Complete and verify this requirement as soon as it becomes available; check the trophy register before moving past related content."
+    },
+    {
+      "name": "Supply & Demand",
+      "stage": "Cleanup: activities",
+      "reason": "The tracker flags this objective as missable; its source data does not specify the exact lockout condition.",
+      "avoid": "Complete and verify this requirement as soon as it becomes available; check the trophy register before moving past related content."
+    },
+    {
+      "name": "Spin On This!",
+      "stage": "Cleanup: activities",
+      "reason": "The tracker flags this objective as missable; its source data does not specify the exact lockout condition.",
+      "avoid": "Complete and verify this requirement as soon as it becomes available; check the trophy register before moving past related content."
+    },
+    {
+      "name": "Positive Mental Attitude",
+      "stage": "Chapter 1",
+      "reason": "The Chapter 1 meditation opportunity may close when the chapter ends.",
+      "avoid": "Complete and verify this requirement as soon as it becomes available; check the trophy register before moving past related content."
+    },
+    {
+      "name": "Catch Me If You Can",
+      "stage": "Cleanup: activities",
+      "reason": "The tracker flags this objective as missable; its source data does not specify the exact lockout condition.",
+      "avoid": "Complete and verify this requirement as soon as it becomes available; check the trophy register before moving past related content."
+    },
+    {
+      "name": "Sneakthief",
+      "stage": "Cleanup: activities",
+      "reason": "The tracker flags this objective as missable; its source data does not specify the exact lockout condition.",
+      "avoid": "Complete and verify this requirement as soon as it becomes available; check the trophy register before moving past related content."
+    },
+    {
+      "name": "Actions Speak Louder",
+      "stage": "Cleanup: activities",
+      "reason": "The tracker flags this objective as missable; its source data does not specify the exact lockout condition.",
+      "avoid": "Complete and verify this requirement as soon as it becomes available; check the trophy register before moving past related content."
+    },
+    {
+      "name": "Bad Luck, I Guess",
+      "stage": "Cleanup: activities",
+      "reason": "The tracker flags this objective as missable; its source data does not specify the exact lockout condition.",
+      "avoid": "Complete and verify this requirement as soon as it becomes available; check the trophy register before moving past related content."
+    },
+    {
+      "name": "The Truth Is Out There",
+      "stage": "Cleanup: activities",
+      "reason": "The tracker flags this objective as missable; its source data does not specify the exact lockout condition.",
+      "avoid": "Complete and verify this requirement as soon as it becomes available; check the trophy register before moving past related content."
+    }
+  ]
+}
