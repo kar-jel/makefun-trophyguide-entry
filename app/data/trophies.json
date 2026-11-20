@@ -1,0 +1,846 @@
+{
+  "game": "Grand Theft Auto VI",
+  "platform": "PlayStation 5",
+  "trophies": [
+    {
+      "id": 1,
+      "name": "Vice Got a Price!",
+      "description": "Congratulations! You're a Leonida Legend.",
+      "grade": "platinum",
+      "guide": "Treat this as the capstone for the full set: the platinum arrives after every other trophy is recorded. Keep a separate checklist for story, activities, collectibles and optional encounters, then reconcile it with the in-game completion screens before stopping. The official requirement is simply the complete set; this note is a planning aid, not a substitute for checking each category. A roadmap such as PowerPyx’s and community tracking on PSNProfiles are useful cross-checks.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Chapter -1",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Just Like Paradise",
+      "description": "Complete Gone Fishing.",
+      "grade": "bronze",
+      "guide": "Play through Gone Fishing to finish the opening mission and bank this story trophy. Follow the on-screen objectives rather than rushing through optional prompts, and let the mission transition complete before checking the trophy list. Because the game is new, confirm the exact mission flow in an official objective log or a spoiler-aware community roadmap; PowerPyx’s roadmap and PSNProfiles are sensible reference points.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Prologue",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Paradise Lost",
+      "description": "Complete Chapter 1.",
+      "grade": "bronze",
+      "guide": "Complete Chapter 1 through its final story objective. Keep progressing the main mission markers until the chapter transition is clearly finished, then verify the unlock in the console trophy list. Chapter completion is a reliable backbone for the roadmap, while optional activities can be handled in a separate sweep. For route context, compare the game’s own mission list with a PowerPyx roadmap or PSNProfiles checklist.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Chapter 1",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "T**s Ass Drug Money",
+      "description": "Complete Chapter 2.",
+      "grade": "bronze",
+      "guide": "Finish the Chapter 2 storyline to earn this chapter-clear trophy. Advance the main objectives in order and allow the final sequence to settle before leaving the area; check the trophy list afterward in case the unlock is delayed. Maintain a separate note of open activities so the chapter push does not bury them. Use PowerPyx’s roadmap and PSNProfiles as planning references, not as text to copy.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Chapter 2",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Vice City, Baby!",
+      "description": "Complete Chapter 3.",
+      "grade": "bronze",
+      "guide": "This marks completion of Chapter 3. Follow the main story markers until the game confirms the chapter change, then make sure the trophy registers before continuing. Side jobs need not interrupt the story route unless they appear time-sensitive in your own playthrough. A chapter-by-chapter roadmap from PowerPyx and a PSNProfiles checklist can help track what remains without relying on memory.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Chapter 3",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Top Of The World, Ma",
+      "description": "Complete Chapter 4.",
+      "grade": "bronze",
+      "guide": "Clear Chapter 4’s final story objective and confirm the bronze trophy appears. A clean chapter log makes it easier to see how far the main narrative has advanced and which optional strands still need attention. Avoid assuming a mission completion notification means the chapter trophy has registered; check the console list. Cross-reference the progression order with PowerPyx’s roadmap or PSNProfiles.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Chapter 4",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "You Gotta Know When to Get Off",
+      "description": "Complete the final mission.",
+      "grade": "gold",
+      "guide": "Reach and complete the final mission to earn this gold story trophy. Before committing to the finale, finish any activity or character strand you personally want to do first, then follow the mission prompts through the ending and verify the unlock. The official description does not state a branching condition, so do not assume a particular ending is required. Use a roadmap such as PowerPyx and the PSNProfiles trophy page to plan cleanup.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Chapter 4",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Trust",
+      "description": "Complete Breakfast Run.",
+      "grade": "bronze",
+      "guide": "Complete Breakfast Run when it appears in the story. Follow the objective prompts through the full mission and wait for the completion state before switching activities. Record it in your story checklist, since named mission trophies are easy to confuse with chapter clears. For broader sequencing, compare the in-game mission list against PowerPyx’s roadmap or PSNProfiles’ trophy checklist.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Story & contacts",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Break the Bank",
+      "description": "Complete The Cartel Heist.",
+      "grade": "bronze",
+      "guide": "Finish The Cartel Heist to claim this mission trophy. Stay with the active objective chain through the heist’s conclusion, then check that the trophy has registered before moving on. If you are planning a tidy run, keep mission-specific unlocks separate from chapter trophies so missing one is easy to spot. PowerPyx’s roadmap and PSNProfiles can serve as independent checklist references.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Story & contacts",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Family Matters",
+      "description": "Complete Child's Play.",
+      "grade": "bronze",
+      "guide": "Complete Child’s Play from its mission start through the end-of-mission confirmation. Watch for any remaining objective marker rather than leaving as soon as the main action appears done, then verify the trophy in your list. Pair this with a simple story checklist to avoid revisiting completed missions unnecessarily. A PowerPyx roadmap or PSNProfiles checklist can help place it in the overall order.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Story & contacts",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "DWNFALL",
+      "description": "Complete Headliners.",
+      "grade": "bronze",
+      "guide": "Clear Headliners and let its full mission-complete transition play out. The unusual trophy title is tied to the named mission in the official description, so use the mission log to identify it rather than guessing from the title. Confirm the unlock afterward and mark it off your story list. For cross-checking, consult PowerPyx’s roadmap or the PSNProfiles list.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Story & contacts",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Hi-Jacked",
+      "description": "Complete VCIA Takedown.",
+      "grade": "bronze",
+      "guide": "Complete VCIA Takedown to unlock this story trophy. Track the mission by its objective name in the mission list, finish the entire objective sequence and check the console list once control returns. A distinct mission checklist helps separate this from other similarly themed activities. Use PowerPyx’s roadmap or PSNProfiles as navigation aids if you need to confirm story placement.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Story & contacts",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Snow Storm",
+      "description": "Complete Operation Savage Glory.",
+      "grade": "bronze",
+      "guide": "Finish Operation Savage Glory from its first objective through the final mission-complete state. The trophy description names the mission directly, so the safest approach is to follow the in-game mission log and verify the unlock afterward. Keep optional completion tasks in a separate checklist. PowerPyx’s roadmap and PSNProfiles can help you plan the story sequence and later cleanup.",
+      "kind": "story",
+      "missable": false,
+      "stage": "Story & contacts",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "A Long Road",
+      "description": "Attain 100% Completion.",
+      "grade": "gold",
+      "guide": "This gold trophy calls for 100% completion, so treat it as a multi-category checklist rather than a single mission. Regularly review the game’s completion tracker, then clear the remaining required story, side activities and other counted tasks it identifies. Do not assume every trophy task contributes to the percentage. Community roadmaps such as PowerPyx and PSNProfiles are useful for interpreting categories; validate details against the live in-game counter.",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Cunning Stunts",
+      "description": "Complete 250 Stunts.",
+      "grade": "silver",
+      "guide": "Accumulate 250 completed stunts, logging progress as you go instead of trying to count from memory. Use safe, repeatable routes with a suitable vehicle and vary locations when a stunt fails to register; only count successful completion feedback. This is a long-form activity, so fold attempts into exploration and revisit the tracker periodically. PowerPyx’s roadmap and PSNProfiles are planning references for trophy cleanup.",
+      "kind": "activities",
+      "missable": true,
+      "stage": "Completion sweep",
+      "missable_reason": "Track stunt totals as you travel; missed opportunities can be revisited with suitable vehicles.",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Master of None",
+      "description": "Try each type of activity once.",
+      "grade": "bronze",
+      "guide": "Try each activity type at least once, using the game’s activity list as your checklist. Start one example of every distinct category and confirm it registers before moving on; repeating the same activity does not cover a missing type. Mark categories off immediately to avoid backtracking. A PowerPyx roadmap or PSNProfiles checklist can help identify the activity breadth, while the in-game tracker remains the final authority.",
+      "kind": "activities",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "The Shootist",
+      "description": "Earn a gold medal in all Shooting Range challenges.",
+      "grade": "silver",
+      "guide": "Gold every Shooting Range challenge, then verify the range menu shows the top medal for all entries. Improve one challenge at a time and focus on accuracy, target priority and controlled shots rather than speed alone. Return to any non-gold result until the full board is complete. Because this is a substantial set, record each result; use PowerPyx’s roadmap and PSNProfiles as cross-checks.",
+      "kind": "activities",
+      "missable": true,
+      "stage": "Completion sweep",
+      "missable_reason": "Return to every range challenge and improve each result to gold before wrapping up side content.",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Top Fun",
+      "description": "Win a Top Fun Drone Race at every location.",
+      "grade": "bronze",
+      "guide": "Win a Top Fun Drone Race at every listed location. Keep a venue-by-venue checklist, finish each race successfully and confirm its result before moving to the next marker; a single win does not cover the full set. If the route feels unfamiliar, learn the course on an early attempt and prioritize checkpoints over risky shortcuts. Use PowerPyx’s roadmap and PSNProfiles to track outstanding locations.",
+      "kind": "activities",
+      "missable": true,
+      "stage": "Completion sweep",
+      "missable_reason": "Visit each marked race location and record wins so no venue is overlooked.",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Earn Cash, Not Kudos",
+      "description": "Win 20 different races.",
+      "grade": "bronze",
+      "guide": "Win 20 different races, prioritizing distinct event names rather than replaying one favorite course. Record each first-time win and check the event board for a clear completed result before counting it. If a race is available in multiple variations, treat them as separate only when the game lists them as distinct events. Community guides such as PowerPyx and PSNProfiles can support a cleanup checklist.",
+      "kind": "activities",
+      "missable": true,
+      "stage": "Completion sweep",
+      "missable_reason": "Use the event list to win twenty distinct race entries, not repeated runs of one event.",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Baited My Tackle",
+      "description": "Beat Cal in a fishing challenge.",
+      "grade": "bronze",
+      "guide": "Beat Cal in a fishing challenge when the activity is available. Start the challenge through its in-game prompt, follow the fishing controls carefully and aim to meet the contest target before time expires. If the first attempt falls short, retry after learning the casting and reeling rhythm rather than assuming a missable trigger. Track the contact activity and consult PowerPyx or PSNProfiles for roadmap context.",
+      "kind": "activities",
+      "missable": true,
+      "stage": "Completion sweep",
+      "missable_reason": "Complete Cal’s fishing challenge when its contact activity becomes available.",
+      "sources": [
+        {
+          "label": "PowerPyx GTA 6 Trophy Roadmap",
+          "url": "https://www.powerpyx.com/"
+        },
+        {
+          "label": "PSNProfiles GTA 6 trophies",
+          "url": "https://psnprofiles.com/"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Stick Fiddler",
+      "description": "Complete an arcade game.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "activities",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 22,
+      "name": "Road to Rehabilitation",
+      "description": "Complete the final mission for Andy.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "story",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 23,
+      "name": "This Was No Boat Accident",
+      "description": "Complete the final mission for Kenton.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "story",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 24,
+      "name": "The Lone Rider",
+      "description": "Complete the final mission for Billy.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "story",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 25,
+      "name": "Strangers & Freaks",
+      "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+      "grade": "silver",
+      "guide": "",
+      "kind": "activities",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 26,
+      "name": "Supply & Demand",
+      "description": "Complete the final mission for Randy.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 27,
+      "name": "Spin On This!",
+      "description": "Complete the final mission for Tyrone.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 28,
+      "name": "Positive Mental Attitude",
+      "description": "Meditate at every spot across Leonida.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "collectibles",
+      "missable": true,
+      "stage": "Completion sweep",
+      "missable_reason": "Meditate at every spot across Leonida.",
+      "sources": []
+    },
+    {
+      "id": 29,
+      "name": "Fair Game",
+      "description": "Hunt a unique animal for Bret.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "activities",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 30,
+      "name": "Don't Touch My Deck",
+      "description": "Complete 3 Collectible Card sets.",
+      "grade": "silver",
+      "guide": "",
+      "kind": "collectibles",
+      "missable": true,
+      "stage": "Completion sweep",
+      "missable_reason": "Complete 3 collectible card sets.",
+      "sources": []
+    },
+    {
+      "id": 31,
+      "name": "You WAiNKer!",
+      "description": "WAiNK It at 100 locations.",
+      "grade": "silver",
+      "guide": "",
+      "kind": "collectibles",
+      "missable": true,
+      "stage": "Completion sweep",
+      "missable_reason": "WAiNK It at 100 locations.",
+      "sources": []
+    },
+    {
+      "id": 32,
+      "name": "One Last Thing",
+      "description": "Complete 50 Challenges.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "activities",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 33,
+      "name": "Hot Together",
+      "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 34,
+      "name": "Retail Therapy",
+      "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 35,
+      "name": "Whip It Good",
+      "description": "Discover 100 vehicles.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "collectibles",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 36,
+      "name": "Gunslinger",
+      "description": "Take down 5 enemies in a single use of Combat Focus.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 37,
+      "name": "Catch Me If You Can",
+      "description": "Make an unscheduled departure at VCIA.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 38,
+      "name": "Challenging Tank",
+      "description": "Kinda hot in these Rhinos.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 39,
+      "name": "Sneakthief",
+      "description": "Rob a jewelry store without being detected.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 40,
+      "name": "Maximum Withdrawal",
+      "description": "Rob 5 Bank Vaults and escape.",
+      "grade": "silver",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 41,
+      "name": "A Classic Blitz Play",
+      "description": "Rob an Armored Truck and escape.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 42,
+      "name": "The Goodtime State",
+      "description": "Explore all of Leonida.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "collectibles",
+      "missable": true,
+      "stage": "Completion sweep",
+      "missable_reason": "Explore all of Leonida.",
+      "sources": []
+    },
+    {
+      "id": 43,
+      "name": "Pest Control",
+      "description": "Rob an Illegal Operation belonging to each gang.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 44,
+      "name": "In The Beginning…",
+      "description": "Enjoy a cocktail with a view on Ocean Beach.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "collectibles",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 45,
+      "name": "Capital Offense",
+      "description": "Smash your way out of a vehicle showroom in classic style.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 46,
+      "name": "Let’s Go Bowling",
+      "description": "Follow-through at the Kolt & Associates' bowling alley.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "activities",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 47,
+      "name": "Personal Best",
+      "description": "A partnership with mass appeal.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 48,
+      "name": "Actions Speak Louder",
+      "description": "Choices made (for better or worse).",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 49,
+      "name": "Bad Luck, I Guess",
+      "description": "Second time's the charm.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 50,
+      "name": "The Truth Is Out There",
+      "description": "What the hell just happened?",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 51,
+      "name": "Ten Pin",
+      "description": "Bowl 'em over with a melee drive-by.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "activities",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 52,
+      "name": "Dime on the Dollar",
+      "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 53,
+      "name": "Treat Yo Self",
+      "description": "Spend $100,000 across all shops.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 54,
+      "name": "Little Boxes",
+      "description": "Purchase all garage properties.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "missable",
+      "missable": false,
+      "stage": "Completion sweep",
+      "missable_reason": "",
+      "sources": []
+    },
+    {
+      "id": 55,
+      "name": "On the Spot",
+      "description": "Register 10 vehicles to the Scooter Bros app.",
+      "grade": "bronze",
+      "guide": "",
+      "kind": "collectibles",
+      "missable": true,
+      "stage": "Completion sweep",
+      "missable_reason": "Register 10 vehicles.",
+      "sources": []
+    }
+  ]
+}
