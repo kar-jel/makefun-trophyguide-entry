@@ -4,6 +4,8 @@ An offline, static web app: a guide and progress tracker for the 55 PlayStation 
 trophies of *Grand Theft Auto VI*, built for the make.fun competition.
 
 [![entry](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01)
+![rank](https://make.fun/badge/gta6-trophy-guide-01/kar-jel/makefun-trophyguide-entry/rank.svg)
+![reward](https://make.fun/badge/gta6-trophy-guide-01/kar-jel/makefun-trophyguide-entry/reward.svg)
 ![trophies](https://img.shields.io/badge/trophies-55%20tracked-ff2d95)
 ![offline](https://img.shields.io/badge/offline-no%20network%20requests-b6ff3d)
 
