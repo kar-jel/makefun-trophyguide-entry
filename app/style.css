@@ -125,3 +125,26 @@ footer button { padding: 6px 9px; font-size: 9px; }
 .shortcut-dialog dd { margin: 0; }
 @media (max-width: 850px) { .session-tools { grid-template-columns: 1fr 1fr; } .hunt-session { grid-column: 1 / -1; } }
 @media (max-width: 560px) { .session-tools { grid-template-columns: 1fr; padding-inline: 18px; } .hunt-session { grid-column: auto; } }
+
+/* Session planning and report widgets. */
+.hunt-controls, .hunt-kind-summary, .timer-controls, .report-copy { display:flex; flex-wrap:wrap; gap:7px; align-items:center; }
+.hunt-controls button, .timer-controls button, .report-copy button { padding:7px 10px; border:1px solid var(--green); color:var(--green); background:#171719; cursor:pointer; font-size:10px; font-weight:800; }
+.hunt-route, .hunt-complete, .report-summary, .report-chain, .report-time { color:var(--paper); font-size:11px; }
+.hunt-kind-summary { margin:6px 0; } .hunt-kind-summary span { padding:4px 7px; border:1px solid var(--line); color:var(--muted); font-size:10px; }
+.hunt-group.is-urgent { border-color:var(--pink); }
+.hunt-progress, .timer-progress, .report-bar { height:6px; overflow:hidden; margin-top:6px; background:#494044; }
+.hunt-progress i, .timer-progress i, .report-bar i { display:block; height:100%; background:var(--green); transition:width .2s; }
+.timer-status { width:100%; color:var(--muted); text-align:center; font-size:10px; } .timer-progress { width:100%; }
+.hunt-timer.timer-warning { border-color:var(--pink); animation:timer-pulse 1s infinite alternate; }
+@keyframes timer-pulse { to { box-shadow:0 0 12px #ff3b9155; } }
+.timer-controls { justify-content:center; } .timer-controls button:disabled { opacity:.45; cursor:default; }
+.shortcut-detail { display:grid; gap:3px; } .shortcut-detail small { color:var(--muted); }
+#reportPanel { padding:10px clamp(18px,4vw,58px); }
+.progress-report { padding:14px; border:1px solid var(--line); border-left:3px solid var(--pink); background:var(--panel); }
+.progress-report h2 { margin:0; color:var(--green); font:20px "Arial Narrow",Impact,sans-serif; }
+.report-summary { color:var(--pink); font-weight:800; } .report-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+.report-section { padding:9px; border:1px solid var(--line); } .report-section h3 { margin:0 0 8px; color:var(--green); font-size:12px; text-transform:uppercase; }
+.report-row { margin:7px 0; } .report-row-heading { display:flex; justify-content:space-between; gap:8px; color:var(--paper); font-size:10px; }
+.report-row-heading span:first-child { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; } .report-bar { margin-top:3px; }
+.report-copy { align-items:stretch; } .report-copy textarea { flex:1 1 240px; min-height:72px; padding:8px; border:1px solid var(--line); color:var(--paper); background:#111113; font:10px/1.4 ui-monospace,monospace; }
+@media (max-width:850px) { .report-grid { grid-template-columns:1fr; } }
