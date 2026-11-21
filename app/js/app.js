@@ -15,9 +15,11 @@ import { buildHuntSession, renderHuntSession } from './hunt.js';
 import { createTimer } from './timer.js';
 import { installShortcuts, renderShortcutHelp } from './shortcuts.js';
 import { buildReport, renderReport } from './report.js';
+import { createFilterBar } from './filterbar.js';
 const $ = selector => document.querySelector(selector);
 let trophies = [], searchIndex = [], progress = readProgress(), selected = null;
 let kind = 'all', query = '', hideEarned = false;
+let filterBar;
 function setSelected(trophy) { selected = trophy.id; render(); }
 function saveToggle(trophy, earned) { progress = toggle(progress, trophy.id, earned); writeProgress(progress); render(); }
 function renderHeader() {
@@ -28,7 +30,7 @@ function renderHeader() {
 function render() {
   renderHeader(); renderStats($('#statsStrip'), trophies, progress);
   renderSearch($('#searchResults'), searchTrophies(query, searchIndex), setSelected);
-  const visible = applyFilters(trophies, { kind, query, hideEarned, progress });
+  const visible = applyFilters(trophies, { ...(filterBar?.getFilters() || {}), kind, query, hideEarned, progress });
   $('#resultCount').textContent = `${visible.length} RECORDS`;
   renderList($('#trophyList'), visible, trophies, progress, selected, setSelected, saveToggle);
   renderDetail($('#detailPanel'), trophies.find(t => t.id === selected), progress, saveToggle);
@@ -52,6 +54,7 @@ async function handleImport(file) {
 async function start() {
   try {
     trophies = await loadTrophies();
+    filterBar = createFilterBar($('#filterBar'), { trophies, progress }, () => render());
     selected = trophies.find(t => t.kind === 'story' && !isEarned(progress, t))?.id ?? trophies.find(t => t.grade !== 'platinum' && !isEarned(progress, t))?.id ?? null;
     searchIndex = buildIndex(trophies); renderFilters(); $('#spoilerToggle').checked = spoilersHidden();
     $('#hideEarned').addEventListener('change', event => { hideEarned = event.target.checked; render(); });
