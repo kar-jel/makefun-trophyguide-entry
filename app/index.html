@@ -6,6 +6,9 @@
   <meta name="theme-color" content="#111113">
   <title>Leonida Field Guide — GTA VI Trophy Tracker</title>
   <link rel="stylesheet" href="style.css">
+  <script type="module" src="js/hunt.js"></script>
+  <script type="module" src="js/timer.js"></script>
+  <script type="module" src="js/shortcuts.js"></script>
   <script type="module" src="js/app.js"></script>
 </head>
 <body>
@@ -16,6 +19,7 @@
   <section id="statsStrip" class="stats-strip" aria-label="Detailed trophy statistics"></section>
   <nav class="tabs" role="tablist" aria-label="Tracker sections"><button class="tab active" data-view="tracker" role="tab" aria-selected="true">Trophy index</button><button class="tab" data-view="roadmap" role="tab" aria-selected="false">Roadmap</button><button class="tab" data-view="missables" role="tab" aria-selected="false">Missable watch</button><button class="tab" data-view="notes" role="tab" aria-selected="false">Notes</button><label class="spoiler"><input id="spoilerToggle" type="checkbox"> Hide story spoilers</label></nav>
   <main>
+    <section class="session-tools" aria-label="Hunt session tools"><div id="huntSession"></div><div id="huntTimer" aria-label="Hunt timer"></div><div id="shortcutHelp"></div></section>
     <section class="grade-strip" id="gradeCounts" aria-label="Progress by trophy grade"></section>
     <section class="toolbar"><div class="filters" id="filters" aria-label="Filter trophies"></div><div class="tools"><input id="search" type="search" placeholder="Search name or guide" aria-label="Search trophies"><label class="switch"><input id="hideEarned" type="checkbox"> Hide earned</label></div><div id="searchResults" class="search-results" aria-live="polite"></div></section>
     <section id="trackerView" class="view active" role="tabpanel"><div class="layout"><div class="list-column"><div class="section-title"><span>01 / FIELD INDEX</span><small id="resultCount"></small></div><div class="list-progress"><span id="listProgress">0 / 55</span><div class="progress"><i id="listProgressBar"></i></div></div><div id="trophyList" class="trophy-list"></div></div><aside id="detailPanel" class="detail-panel"><div class="empty"><span>OPEN A FILE</span><p>Select an objective to view its field notes.</p></div></aside></div></section>

@@ -103,3 +103,25 @@ footer button { padding: 6px 9px; font-size: 9px; }
 .note-card textarea { width: 100%; resize: vertical; padding: 8px; border: 1px solid var(--line); color: var(--paper); background: #111113; font: 12px/1.4 Arial, sans-serif; }
 @media (max-width: 850px) { .stats-strip { grid-template-columns: 1fr; } .notes-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 560px) { .notes-list { grid-template-columns: 1fr; } }
+
+/* Hunt planner, active timer, and shortcut reference. */
+.session-tools { display: grid; grid-template-columns: minmax(0, 2fr) minmax(180px, 1fr) minmax(100px, .5fr); gap: 10px; padding: 12px clamp(18px, 4vw, 58px); }
+.hunt-session, .hunt-timer { padding: 12px; border: 1px solid var(--line); border-top: 3px solid var(--green); background: var(--panel); }
+.hunt-session h2, .shortcut-dialog h2 { margin: 0 0 7px; color: var(--green); font: 20px "Arial Narrow", Impact, sans-serif; }
+.hunt-summary { margin: 0 0 8px; color: var(--muted); font-size: 11px; }
+.hunt-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 7px; }
+.hunt-group { padding: 8px; border: 1px solid var(--line); }
+.hunt-group h3 { margin: 0; color: var(--pink); font-size: 12px; }
+.hunt-count { display: block; margin-top: 4px; color: var(--muted); font-size: 10px; }
+.hunt-group ul { margin: 6px 0 0; padding-left: 16px; font-size: 11px; }
+.hunt-timer { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 6px; }
+.hunt-timer output { width: 100%; color: var(--pink); text-align: center; font: 32px ui-monospace, monospace; }
+.hunt-timer button, .shortcut-help button { padding: 6px 8px; border: 1px solid var(--line); background: #211e22; cursor: pointer; font-size: 10px; }
+.shortcut-help { align-self: start; }
+.shortcut-dialog { max-width: min(420px, 90vw); border: 1px solid var(--pink); color: var(--paper); background: var(--panel); }
+.shortcut-dialog::backdrop { background: #000b; }
+.shortcut-dialog dl { display: grid; grid-template-columns: 55px 1fr; gap: 6px; font-size: 12px; }
+.shortcut-dialog dt { color: var(--green); font-weight: 800; }
+.shortcut-dialog dd { margin: 0; }
+@media (max-width: 850px) { .session-tools { grid-template-columns: 1fr 1fr; } .hunt-session { grid-column: 1 / -1; } }
+@media (max-width: 560px) { .session-tools { grid-template-columns: 1fr; padding-inline: 18px; } .hunt-session { grid-column: auto; } }
